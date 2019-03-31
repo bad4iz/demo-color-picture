@@ -1,4 +1,4 @@
-import getAverageRGBA from "color-picture";
+import { getAverageRGBA } from "color-picture";
 
 const dropZone = document.querySelector('#drop_zone');
 const fileInput = document.body.querySelector('#file-inpur');
