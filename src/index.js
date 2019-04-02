@@ -43,6 +43,13 @@ function load(event) {
     dropZone.style.boxShadow = `3px 4px 14px 5px ${backgr}`;
     header.style.backgroundColor = backgr;
     header.style.boxShadow = `0 0 14px 5px ${backgr}`;
+    setTimeout(()=>{
+        dropZone.style.boxShadow = ``;
+        header.style.backgroundColor = '';
+        header.style.boxShadow = ``;
+        dropZone.style.backgroundImage = ``;
+
+    },1500)
 }
 
 function onloadImage(event) {
@@ -53,3 +60,4 @@ function onloadImage(event) {
     image.addEventListener('load', load);
 
 }
+
