@@ -2,6 +2,7 @@ import { getAverageRGBA } from "color-picture";
 
 const dropZone = document.querySelector('#drop_zone');
 const fileInput = document.body.querySelector('#file-inpur');
+const header = document.body.querySelector('header');
 
 fileInput.addEventListener('change', readURL);
 dropZone.addEventListener('drop', handleDrop, false);
@@ -39,12 +40,15 @@ function readURL(event) {
 
 function load(event) {
     const backgr = getAverageRGBA(event.target);
-    document.body.style.backgroundColor = backgr;
+    dropZone.style.boxShadow = `3px 4px 14px 5px ${backgr}`;
+    header.style.backgroundColor = backgr;
 }
 
 function onloadImage(event) {
-    var image = new Image();
+    const image = new Image();
     image.src =  event.target.result;
+
+    dropZone.style.backgroundImage = `url('${event.target.result}')`;
     image.addEventListener('load', load);
 
 }

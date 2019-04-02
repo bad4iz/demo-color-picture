@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "color-picture": "^0.1.0"
+    "color-picture": "^0.1.6"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
