@@ -40,9 +40,10 @@ function readURL(event) {
 
 function load(event) {
     const backgr = getAverageRGBA(event.target);
-    dropZone.style.boxShadow = `3px 4px 14px 5px ${backgr}`;
+    dropZone.style.boxShadow = `0 16px 32px -8px ${backgr}`;
+    dropZone.style.border = 'none'
     header.style.backgroundColor = backgr;
-    header.style.boxShadow = `0 0 14px 5px ${backgr}`;
+    header.style.boxShadow = ` 0 16px 24px -12px ${backgr}`;
     setTimeout(()=>{
         dropZone.style.boxShadow = ``;
         header.style.backgroundColor = '';
