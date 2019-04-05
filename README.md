@@ -8,7 +8,7 @@
 ![](https://img.shields.io/github/commit-activity/m/bad4iz/demo-color-picture.svg)
 ![](https://img.shields.io/github/last-commit/bad4iz/demo-color-picture.svg)
 
-
+![](https://img.shields.io/github/license/bad4iz/demo-color-picture.svg)
 install
 ```
 yarn add color-picture
