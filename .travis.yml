@@ -6,16 +6,14 @@ cache:
   directories:
     - node_modules
 
-before_install:
-
 
 install:
   - yarn --frozen-lockfile --non-interactive
   - yarn run build
- 
-
+before_deploy:
+  echo: "sdfsafasf"
 deploy:
-  echo "sdfsafasf"
+  echo: "sdfsafasf"
   local_dir: ./docs
   provider: pages
   skip_cleanup: true
