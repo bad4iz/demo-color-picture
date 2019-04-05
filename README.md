@@ -2,10 +2,12 @@
 
 ![](https://travis-ci.org/bad4iz/demo-color-picture.svg?branch=master)
 ![](https://img.shields.io/npm/v/color-picture.svg)
-![](https://img.shields.io/npm/dw/color-picture.svg)
-![](https://img.shields.io/npm/dm/color-picture.svg)
-![](https://img.shields.io/npm/dy/color-picture.svg)
 ![](https://img.shields.io/npm/dt/color-picture.svg)
+
+
+![](https://img.shields.io/github/commit-activity/m/bad4iz/demo-color-picture.svg)
+![](https://img.shields.io/github/last-commit/bad4iz/demo-color-picture.svg)
+
 
 install
 ```
