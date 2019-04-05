@@ -11,6 +11,7 @@ install:
   - yarn --frozen-lockfile --non-interactive
   - yarn run build
 before_deploy: "echo 'ready?'"
+  - yarn run build
 deploy:
   local_dir: ./docs
   provider: pages
