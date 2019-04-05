@@ -1,5 +1,7 @@
 # demo npm package [color-picture](https://www.npmjs.com/package/color-picture)
 
+![](https://travis-ci.org/bad4iz/demo-color-picture.svg?branch=master)
+
 install
 ```
 yarn add color-picture
