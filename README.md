@@ -2,6 +2,7 @@
 
 ![](https://travis-ci.org/bad4iz/demo-color-picture.svg?branch=master)
 ![](https://img.shields.io/npm/v/color-picture.svg)
+![](https://img.shields.io/npm/v/color-picture.svg)
 
 install
 ```
