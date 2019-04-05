@@ -12,7 +12,7 @@ install:
   - yarn run build
 before_deploy: "echo 'ready?'"
 deploy:
-  local_dir: ./docs
+  local_dir: docs
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
