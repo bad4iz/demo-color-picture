@@ -10,10 +10,9 @@ cache:
 install:
   - yarn --frozen-lockfile --non-interactive
   - yarn run build
-before_deploy:
-  echo: "sdfsafasf"
+before_deploy: "echo 'ready?'"
+  - yarn run build
 deploy:
-  echo: "sdfsafasf"
   local_dir: ./docs
   provider: pages
   skip_cleanup: true

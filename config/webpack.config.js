@@ -49,7 +49,7 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             title: 'Hot Module Replacement',
-            template: './index.html',
+            template: './src/index.html',
             inject: 'body'
         }),
         new webpack.HotModuleReplacementPlugin()
